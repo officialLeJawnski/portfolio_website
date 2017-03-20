@@ -1,0 +1,9 @@
+#main_container {
+    width: 1024px;
+}
+
+#heading_image {
+    width: 1024px;
+    height: 450px;
+    position: center;
+}
