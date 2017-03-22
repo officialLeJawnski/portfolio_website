@@ -3,7 +3,31 @@
 }
 
 #heading_image {
-    width: 1024px;
-    height: 450px;
-    position: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+#navigation {
+    background-color: #999999;
+    text-align: center;
+    color: white;
+    font-size: 32pt;
+    font-family: 'IntroRust';
+
+}
+
+@font-face {
+    font-family: 'IntroRust';
+    src:url('css_font/introrustg-base2line-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1 {
+    font-family: 'IntroRust';
+    font-size: 80pt;
+    color: white;
+    text-align: center;
 }
