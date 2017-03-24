@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'IntroRust';
+    src:url('css_font/introrustg-base2line-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 #main_container {
 
 }
@@ -15,14 +23,6 @@
     font-size: 28pt;
     font-family: 'IntroRust';
     height: 75px;
-
-}
-
-@font-face {
-    font-family: 'IntroRust';
-    src:url('css_font/introrustg-base2line-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
 
 }
 
@@ -56,4 +56,10 @@ li a {
 
 li a:hover {
     background-color: #4D4D4D;
+}
+
+h2 {
+    color: white;
+    font-size: 36px;
+    text-align: center;
 }
