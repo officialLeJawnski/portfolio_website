@@ -1,13 +1,73 @@
+/*START OF FONTS*/
+@font-face {
+    font-family: 'IntroRust';
+    src:url('css_font/introrustg-base2line-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IntroHead';
+    src: url('css_font/introheadr-base-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IntroScript';
+    src: url('css_font/introscriptr-h2base-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SourceSansReg';
+    src: url('css_font/sourcesanspro-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SourceSansSemi';
+    src: url('css_font/sourcesanspro-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SourceSansBold';
+    src: url('css_font/sourcesanspro-semiboldit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/*END OF FONTS*/
+
+body{
+    margin: 0px;
+}
+
 #main_container {
 
 }
 
 #heading_image {
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
+    height: 420px;
+    background-image: url(../images/chaunceypic.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-content: center;
 }
 
+#logo_image {
+    margin-top: -400px;
+    align-content: center;
+    margin-bottom: 80px;
+    margin-left: 40px;
+
+}
+
+
+/*NAVIGATION BAR*/
 #navigation {
     background-color: #999999;
     text-align: center;
@@ -15,22 +75,6 @@
     font-size: 28pt;
     font-family: 'IntroRust';
     height: 75px;
-
-}
-
-@font-face {
-    font-family: 'IntroRust';
-    src:url('css_font/introrustg-base2line-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-h1 {
-    font-family: 'IntroRust';
-    font-size: 80pt;
-    color: #D7CEBD;
-    text-align: center;
 }
 
 ul {
@@ -52,8 +96,35 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    text-align: center;
 }
 
 li a:hover {
     background-color: #4D4D4D;
+    text-align: center;
+}
+/*NAVIGATION BAR*/
+
+h1 {
+    font-family: 'IntroRust';
+    font-size: 80pt;
+    color: #D7CEBD;
+    text-align: center;
+    line-height: 5px;
+}
+
+h2 {
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    font-family: 'IntroHead';
+    line-height: 20px;
+}
+
+p.bio {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    font-family: 'SourceSansReg';
+    margin: 25px;
 }

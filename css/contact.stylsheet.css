@@ -55,8 +55,19 @@ body{
     background-image: url(../images/chaunceypic.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    align-content: center;
 }
 
+#logo_image {
+    margin-top: -400px;
+    align-content: center;
+    margin-bottom: 80px;
+    margin-left: 40px;
+
+}
+
+
+/*NAVIGATION BAR*/
 #navigation {
     background-color: #999999;
     text-align: center;
@@ -66,7 +77,6 @@ body{
     height: 75px;
 }
 
-/*NAVIGATION BAR*/
 ul {
     list-style-type: none;
     margin: 0;
