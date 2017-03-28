@@ -52,11 +52,16 @@ body{
 
 #heading_image {
     height: 420px;
-    background-image: url(../images/imageboy.png);
+    background-image: url(../images/chaunceypic.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
+#logo_image {
+    position: relative;
+}
+
+/*NAVIGATION BAR*/
 #navigation {
     background-color: #999999;
     text-align: center;
@@ -66,7 +71,6 @@ body{
     height: 75px;
 }
 
-/*NAVIGATION BAR*/
 ul {
     list-style-type: none;
     margin: 0;
