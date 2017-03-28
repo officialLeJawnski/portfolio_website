@@ -71,7 +71,7 @@ body{
 #navigation {
     background-color: #999999;
     text-align: center;
-    color: white;
+    color: #D7CEBD;
     font-size: 28pt;
     font-family: 'IntroRust';
     height: 75px;
@@ -105,6 +105,7 @@ li a:hover {
 }
 /*NAVIGATION BAR*/
 
+/*BODY TAGS*/
 h1 {
     font-family: 'IntroRust';
     font-size: 80pt;
@@ -121,10 +122,39 @@ h2 {
     line-height: 20px;
 }
 
-p.bio {
+p {
     font-size: 18px;
     color: white;
-    text-align: center;
+    text-align: left;
     font-family: 'SourceSansReg';
     margin: 25px;
+}
+
+h3 {
+    color: #D7CEBD;
+    font-size: 70px;
+    text-align: center;
+    font-family: 'IntroScript';
+    line-height: 1px;
+}
+
+#graphic_pic {
+    width: 300px;
+    height: 200px;
+    margin-left: 25px;
+    margin-right: 25px
+}
+
+#photo_pic {
+    width: 300px;
+    height: 200px;
+    margin-left: 25px;
+    margin-right: 25px
+}
+
+#music_pic {
+    width: 200px;
+    height: 200px;
+    margin-left: 25px;
+    margin-right: 25px
 }
