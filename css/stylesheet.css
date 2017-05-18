@@ -1,4 +1,66 @@
-/*START OF FONTS*/
+/* IMAGE GALLERY */
+/*
+div.fullgallery {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+div.gallery {
+    transition-duration: .3s;
+    margin: 10px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+div.gallery:hover {
+    transform: scale(1.15);
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.image_box {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+*/
+/* IMAGE GALLERY */
+/*Inactive*/
+
+
+
+/* FONTS */
 @font-face {
     font-family: 'IntroRust';
     src:url('css_font/introrustg-base2line-webfont.woff') format('woff');
@@ -40,8 +102,11 @@
     font-weight: normal;
     font-style: normal;
 }
-/*END OF FONTS*/
+/* FONTS */
 
+
+
+/* BODY STUFF */
 body{
     margin: 0px;
 }
@@ -64,10 +129,12 @@ body{
 }
 
 #logo_image {
-
 }
+/* BODY STUFF */
 
-/* Start Navigation Bar */
+
+
+/* NAVIGATION BAR */
 ul.nav_list {
     display: flex;
     flex-wrap: wrap;
@@ -102,7 +169,9 @@ li a:hover {
 .active {
     background-color: #6D6D6D;
 }
-/* End Navigation Bar */
+/* NAVIGATION BAR */
+
+
 
 /* BODY TAGS */
 h1 {
@@ -111,17 +180,6 @@ h1 {
     color: #D7CEBD;
     text-align: center;
     line-height: 5px;
-    transition-duration: .6s;
-    transition-timing-function: ease-out;
-}
-
-h1 a {
-    text-decoration: none;
-    color: #D7CEBD;
-}
-
-h1:hover {
-    opacity: .5;
 }
 
 h2 {
@@ -133,16 +191,6 @@ h2 {
     margin-bottom: 50px;
 }
 
-p {
-    font-size: 18px;
-    color: white;
-    text-align: left;
-    font-family: 'SourceSansReg';
-    margin: 25px;
-    margin-top: -10px;
-    line-height: 29px
-}
-
 h3 {
     color: #D7CEBD;
     font-size: 80px;
@@ -151,7 +199,38 @@ h3 {
     text-align: center
 }
 
-/* Start Bio Pictures */
+h4 {
+    line-height: 1px;
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 20px;
+    margin-bottom: 26px;
+    font-family: 'IntroHead';
+}
+
+p {
+    font-size: 18px;
+    color: white;
+    text-align: left;
+    font-family: 'SourceSansReg';
+    margin: 25px;
+    margin-top: -10px;
+    line-height: 29px;
+}
+
+p.gall {
+    font-size: 18px;
+    color: white;
+    text-align: left;
+    font-family: 'SourceSansReg';
+    line-height: 29px;
+}
+/* BODY TAGS */
+
+
+
+/* INDEX GRAPHICS */
 #graphic_pic {
     float: left;
     width: 200px;
@@ -194,9 +273,11 @@ h3 {
     opacity: .5;
 }
 
-/* End Bio Pictures */
+/* INDEX GRAPHICS */
 
-/* Start Invisble Boxes */
+
+
+/* INDEX DESC. BOXES */
 .container {
     border-radius: 5px;
     background-color: #999999;
@@ -240,9 +321,11 @@ h3 {
     font-family: 'IntroRust';
     font-size: 25px;
 }
-/* End Invisible Boxes */
+/* INDEX DESC. BOXES */
 
-/* Start Contact Form */
+
+
+/* CONTACT FORM (only on contact.html) */
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
@@ -272,4 +355,166 @@ input[type=submit]:hover {
     background-color: #4D4D4D;
     transition-duration: .5s;
 }
-/* End Contact Form */
+/* CONTACT FORM (only on contact.html) */
+
+
+
+/* MUSIC STUFF */
+#bandcamp_container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+iframe.bandcamp {
+    margin-left: 25px;
+    margin-right: 25px;
+    transition-duration: .5s;
+}
+
+iframe.bandcamp:hover {
+    transform: scale(1.05);
+}
+
+#boy {
+    margin: 25px;
+}
+/* MUSIC STUFF */
+
+
+
+/* PICTURE LIGHTBOX */
+* {
+    box-sizing: border-box;
+}
+
+.row > .column {
+    padding: 0 8px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    float: left;
+    width: 25%;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: black;
+}
+
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    width: 90%;
+    max-width: 1200px;
+}
+
+.close {
+    color: grey;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.mySlides {
+    display: none;
+}
+
+.cursor {
+    cursor: pointer
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0px 500px 500px 0px;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 500px 0 0 500px;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+img {
+    margin-bottom: -4px;
+}
+
+.caption-container {
+    text-align: center;
+    background-color: black;
+    padding: 2px 16px;
+    color: white;
+}
+
+.demo {
+    opacity: 0.6;
+    transition-duration: .5s;
+    transition-timing-function: ease-out;
+}
+
+.active,
+.demo:hover {
+    opacity: 1;
+}
+
+.hover-shadow {
+    transition: 0.3s
+}
+
+.hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: scale(1.13);
+}
+
+.gallery {
+    margin: 30px;
+}
+/* PICTURE LIGHTBOX */
