@@ -129,6 +129,9 @@ body{
 }
 
 #logo_image {
+    margin-top: 25px;
+    margin: 25px;
+
 }
 /* BODY STUFF */
 
@@ -226,6 +229,29 @@ p.gall {
     font-family: 'SourceSansReg';
     line-height: 29px;
 }
+
+#footer_box {
+    background-color: grey;
+    height: 65px;
+    position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+}
+
+footer {
+/*
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 50px;
+*/
+    display: flex;
+    align-items: center;
+    align-content: baseline;
+
+}
 /* BODY TAGS */
 
 
@@ -234,7 +260,6 @@ p.gall {
 #graphic_pic {
     float: left;
     width: 200px;
-    height: 200px;
     margin-left: 25px;
     margin-right: 25px;
     transition-duration: .6s;
@@ -247,8 +272,7 @@ p.gall {
 
 #photo_pic {
     float: right;
-    width: 250px;
-    height: 200px;
+    width: 200px;
     margin-left: 25px;
     margin-right: 25px;
     transition-duration: .6s;
@@ -262,7 +286,6 @@ p.gall {
 #music_pic {
     float: left;
     width: 200px;
-    height: 200px;
     margin-left: 25px;
     margin-right: 25px;
     transition-duration: .6s;
@@ -272,7 +295,6 @@ p.gall {
 #music_pic:hover {
     opacity: .5;
 }
-
 /* INDEX GRAPHICS */
 
 
