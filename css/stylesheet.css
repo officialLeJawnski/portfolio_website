@@ -106,6 +106,8 @@ div.desc {
 
 
 
+
+
 /* BODY STUFF */
 body{
     margin: 0px;
@@ -115,7 +117,7 @@ body{
     background-image: url(../images/fredrick2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 2050px
+    height: 100%
 }
 
 #heading_image {
@@ -134,6 +136,8 @@ body{
 
 }
 /* BODY STUFF */
+
+
 
 
 
@@ -173,6 +177,8 @@ li a:hover {
     background-color: #6D6D6D;
 }
 /* NAVIGATION BAR */
+
+
 
 
 
@@ -229,30 +235,9 @@ p.gall {
     font-family: 'SourceSansReg';
     line-height: 29px;
 }
-
-#footer_box {
-    background-color: grey;
-    height: 65px;
-    position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  text-align: center;
-}
-
-footer {
-/*
-    margin-left: 25px;
-    margin-right: 25px;
-    margin-top: 50px;
-*/
-    display: flex;
-    align-items: center;
-    align-content: baseline;
-
-}
 /* BODY TAGS */
+
+
 
 
 
@@ -296,6 +281,8 @@ footer {
     opacity: .5;
 }
 /* INDEX GRAPHICS */
+
+
 
 
 
@@ -347,6 +334,8 @@ footer {
 
 
 
+
+
 /* CONTACT FORM (only on contact.html) */
 input[type=text], select, textarea {
     width: 100%;
@@ -381,6 +370,8 @@ input[type=submit]:hover {
 
 
 
+
+
 /* MUSIC STUFF */
 #bandcamp_container{
     width: 100%;
@@ -405,6 +396,8 @@ iframe.bandcamp:hover {
 
 
 
+
+
 /* PICTURE LIGHTBOX */
 * {
     box-sizing: border-box;
@@ -423,6 +416,7 @@ iframe.bandcamp:hover {
 .column {
     float: left;
     width: 25%;
+    margin-bottom: 20px;
 }
 
 .modal {
@@ -540,3 +534,7 @@ img {
     margin: 30px;
 }
 /* PICTURE LIGHTBOX */
+
+
+
+
