@@ -295,6 +295,7 @@ p.gall {
     color: white;
     font-family: 'IntroRust';
     font-size: 25px;
+    height: 1010px;
 }
 
 .section_title{
@@ -337,6 +338,8 @@ p.gall {
 
 
 /* CONTACT FORM (only on contact.html) */
+/*
+
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
@@ -366,6 +369,10 @@ input[type=submit]:hover {
     background-color: #4D4D4D;
     transition-duration: .5s;
 }
+*/
+
+/* !!! INACTIVE !!! */
+
 /* CONTACT FORM (only on contact.html) */
 
 
