@@ -102,6 +102,15 @@ div.desc {
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'damionregular';
+    src: url('damion-regular-webfont.woff2') format('woff2'),
+         url('damion-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 /* FONTS */
 
 
@@ -203,7 +212,7 @@ h2 {
 h3 {
     color: #D7CEBD;
     font-size: 80px;
-    font-family: 'IntroScript';
+    font-family: 'damionregular';
     line-height: .0px;
     text-align: center
 }
