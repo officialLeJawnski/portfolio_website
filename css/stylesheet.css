@@ -104,7 +104,7 @@ div.desc {
 }
 
 @font-face {
-    font-family: 'damionregular';
+    font-family: 'damion';
     src: url('damion-regular-webfont.woff2') format('woff2'),
          url('damion-regular-webfont.woff') format('woff');
     font-weight: normal;
@@ -212,7 +212,7 @@ h2 {
 h3 {
     color: #D7CEBD;
     font-size: 80px;
-    font-family: 'damionregular';
+    font-family: 'Damion';
     line-height: .0px;
     text-align: center
 }
