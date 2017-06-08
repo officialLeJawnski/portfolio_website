@@ -258,6 +258,7 @@ p.gall {
     margin-right: 25px;
     transition-duration: .6s;
     transition-timing-function: ease-out;
+    margin-top: -55px;
 }
 
 #graphic_pic:hover {
@@ -271,6 +272,7 @@ p.gall {
     margin-right: 25px;
     transition-duration: .6s;
     transition-timing-function: ease-out;
+    margin-top: -55px;
 }
 
 #photo_pic:hover {
@@ -284,6 +286,8 @@ p.gall {
     margin-right: 25px;
     transition-duration: .6s;
     transition-timing-function: ease-out;
+    margin-bottom: 25px;
+    margin-top: -55px;
 }
 
 #music_pic:hover {
